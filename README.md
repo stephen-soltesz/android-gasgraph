@@ -11,6 +11,7 @@ environment within Eclipse.
    * https://developer.android.com/sdk/index.html
 
 Download source:
+
    git clone https://github.com/stephen-soltesz/android-gasgraph.git
 
 Then, start Eclipse and import GasGraph into your workspace:
