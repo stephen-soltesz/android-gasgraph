@@ -12,7 +12,7 @@ environment within Eclipse.
 
 Download source:
 
-   git clone https://github.com/stephen-soltesz/android-gasgraph.git
+   * git clone https://github.com/stephen-soltesz/android-gasgraph.git
 
 Then, start Eclipse and import GasGraph into your workspace:
 
