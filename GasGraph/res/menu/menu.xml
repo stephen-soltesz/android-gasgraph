@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--item android:id="@+id/itemReset" android:title="@string/menu_reset" android:icon="@+drawable/ic_menu_close_clear_cancel"></item>
+  <item android:id="@+id/itemImportExport" android:title="@string/menu_import_export" android:icon="@+drawable/ic_menu_upload"></item>
+  <item android:id="@+id/itemUsage" android:title="@string/menu_usage" android:icon="@+drawable/ic_menu_help"></item-->
+  <item android:id="@+id/itemSettings" android:title="@string/menu_settings" android:icon="@+drawable/ic_menu_preferences"></item> 
+</menu>

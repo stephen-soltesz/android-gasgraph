@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.thinkseedo.gasgraph"
+    android:id="@+id/rootLandscape"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	<taptwo.widget.ViewFlow
+        android:id="@+id/gallery1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		app:sidebuffer="1" />
+	<taptwo.widget.CircleFlowIndicator
+		android:padding="0dp"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/viewflowindic"
+		android:layout_gravity="center_horizontal"
+		app:inactiveType="fill"
+		app:fadeOut="1000" />
+	<com.thinkseedo.gasgraph.widget.TimeBarWidget
+		android:padding="0dp"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/timeBar"
+		android:layout_gravity="bottom" />
+</FrameLayout>

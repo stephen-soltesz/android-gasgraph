@@ -1,0 +1,4 @@
+## vehicles
+"make","model","year","note","distance","volume"
+## fillups
+"make","model","year","date","mileage","volume","price","partial","missed","type","note"

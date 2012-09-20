@@ -1,0 +1,76 @@
+VersionXYZ+:
++ maybe keep odometer? & trip dist in bottom left.
++ fault-free import
++ gas cubby import 
++ better DB adapter for index. (don't think this will be possible)
+- trip distance is not converted to display units.
+
++ check timebar lists
++ check start-on-graphs.
+
+simple
+simple-noyear
+simple-min
+simple-nocar
+
+
+Version13+: (2 / 2.0)
+Uses viewflow for Howto, List, Stats, and IO
+Adds time-bar on stats and images.
+Adds Dials for number entry.
+Save odometer
+Setup App.* values in App.onCreate() ; fixes crashes coming back to edit*
+Improved Import
+
+
+Version12+:  (1.4.3)
+Fixes MPG bug. (Thank you, Wendy).
+
+Version11+: (1.4.2) (amz 1.4.2.0)
+Fixes Cut-all bug in Add Record
+Fixes Sharing with Google+
+Fixes loading bug
+smaller "?" icons for help.
+
+Version10+: (1.4.1) (no amz)
+Fixes "no graph" bug
+Fixes missing currency symbol.
+Raw-plots, or smooth-plots as an option.
+changed several preference names
+
+Version9+: (1.4) (1.4.0 amz)
+Import/Export window
+Light/Dark graph backgrounds
+Load images while waiting.
+Simpler swipe on gallery.
+Start-on-add handles landscape changes correctly.
+Fixed import bug for importing directly from FLP
+Added re-try for connection errors.
+More careful logging.
+Blue Icons
+
+Version8: adm (1.2)
+Upload data after 7 days (instead of 14).
+Fixed Import bug that missed the last line.
+Trip Distance graph
+Welcome screen.
+Nicer green icons
+Do not graph odometer 'distance'; mi/km
+
+Version7:
+Improved Graphs
+ * Added legend to graph area, for larger images.
+ * Plot running average for a smoother line.
+ 
+Added new Preferences:
+ * Start On Add
+ * Load Sample Data
+ * Choose Color
+ 
+Reduced Menu options
+ * Import/Export, Settings, Share/Info
+ 
+Import/Export to base of sdcard.
+ * Support for FuelLog CSV format. Only reads first Vehicle data.
+
+Version1: azm

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+  	android:fillViewport="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:background="@color/export_bg" >
+    <com.thinkseedo.gasgraph.widget.ExportWidget
+        android:id="@+id/exportWidget"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.thinkseedo.gasgraph.widget.ExportWidget>
+</ScrollView>

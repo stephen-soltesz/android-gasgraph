@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layoutLandscape"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp" android:visibility="gone">
+    </ListView>
+    
+    <com.thinkseedo.gasgraph.util.GalleryFling
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:thinkseedo="http://schemas.android.com/apk/res/com.thinkseedo.gasgraph"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gallery1"
+        thinkseedo:spacing="0px"
+        thinkseedo:unselectedAlpha="1.0"
+        thinkseedo:animationDuration="500"/>
+
+</LinearLayout>

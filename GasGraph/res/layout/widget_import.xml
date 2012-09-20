@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="Import from filename:" />
+
+    <Spinner
+        android:id="@+id/spinnerFilenames"
+        android:background="@drawable/custom_dropdown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Scan for extra *.csv files" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="Car name:" />
+
+    <Spinner
+        android:id="@+id/spinnerCarnames"
+        android:background="@drawable/custom_dropdown"
+        style="@style/MooSpinnerItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="0dp" >
+
+        <RadioButton
+            android:id="@+id/radioReplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Replace Current History" />
+
+        <RadioButton
+            android:id="@+id/radioAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Current History" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/buttonImport"
+            android:layout_width="fill_parent"
+        	android:drawableLeft="@drawable/ic_menu_up"
+            android:background="@drawable/btn_dark_custom" 
+            style="@style/ButtonText"
+            android:text="Import" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thinkseedo.gasgraph"
+    android:versionCode="14"
+    android:versionName="2.0.1a" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+    
+    <application
+        android:icon="@drawable/gasgraph"
+        android:label="@string/app_name"
+        android:name=".App">
+        <service 
+            android:name=".Background" 
+            android:exported="false"/>
+        <activity
+            android:name=".GasGraphActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".EditRecord"
+            android:label="@string/app_name" 
+            android:theme="@style/MooTheme">
+        </activity>
+        <activity
+            android:name=".EditService"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".TabApp"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+         <!-- android:theme="@android:style/Theme.Black.NoTitleBar"-->
+        <activity
+            android:name=".ListExample"
+            android:label="@string/app_name" 
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/MooTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IOApp"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".ExportCSV"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".widget.ImportWidget"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity 
+            android:name=".Preferences" 
+            android:label="@string/preferences">
+        </activity>
+    </application>
+</manifest>

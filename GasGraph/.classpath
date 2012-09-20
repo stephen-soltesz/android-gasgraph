@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="com/thinkseedo/gasgraph/GasGraphActivity.java|com/thinkseedo/gasgraph/util/DrawableManager.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="GasGraph/Extra/charts4j-1.3.jar"/>
+	<classpathentry kind="lib" path="GasGraph/Extra/ormlite-core-4.33.jar"/>
+	<classpathentry kind="lib" path="GasGraph/Extra/ormlite-android-4.33.jar"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

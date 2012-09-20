@@ -1,0 +1,240 @@
+
+    <resources>
+        <string-array name="fuel_type">
+            <item >87</item>
+            <item >89</item>
+            <item >91</item>
+            <item >93</item>
+            <item >Diesel</item>
+            <item >Ethanol</item>
+            <item >Other</item>
+        </string-array>
+        <string-array name="volume">
+            <item>Gallons</item>
+            <item>Liters</item>
+        </string-array>
+        <string-array name="volume_values">
+            <item>gal</item>
+            <item>L</item>
+        </string-array>
+        <string-array name="distance">
+            <item>Miles</item>
+            <item>Kilometers</item>
+        </string-array>
+        <string-array name="distance_values">
+            <item>mi</item>
+            <item>km</item>
+        </string-array>
+        <string-array name="currency">
+            <item>Dollar</item>
+            <item>Pound</item>
+            <item>Euro</item>
+            <item>Rupee</item>
+            <item>Yen</item>
+            <item>Other</item>
+        </string-array>
+        <string-array name="currency_values">
+            <item >dollar</item>
+            <item >pound</item>
+            <item >euro</item>
+            <item >rupee</item>
+            <item >yen</item>
+            <item >other</item>
+        </string-array>
+        <string-array name="color">
+            <item>Red</item>
+            <item>Orange</item>
+            <item>Yellow</item>
+            <item>Green</item>
+            <item>Blue</item>
+            <item>Purple</item>
+        </string-array>
+        <string-array name="color_values">
+            <item>FF051D</item>
+            <item>FF9500</item>
+            <item>FFEE00</item>
+            <item>55EE33</item>
+            <item>11AADD</item>
+            <item>AA66DD</item>
+        </string-array>
+        <string-array name="color_values_light">
+            <item>A60000</item>
+            <item>A65000</item>
+            <item>BFA530</item>
+            <item>078600</item>
+            <item>11AADD</item>
+            <item>5E0DAC</item>
+        </string-array>
+            <!--item>0B5FA5</item-->
+        <string-array name="display_unit">
+            <item>Total Price (&lt;C&gt;)</item>
+            <item>Unit Price (&lt;C&gt;)</item>
+            <item>Odometer (mi)</item>
+            <item>Trip Distance (mi)</item>
+            <item>Volume (gal)</item>
+            <item>Miles per gallon (mpg)</item>
+            <item>Gallons per 100 miles (gal/100mi)</item>
+            <item>Liters per 100 miles (L/100mi)</item>
+            <item>&lt;Currency&gt; per 100mile (&lt;C&gt;/100mi)</item>
+            <item>Odometer (km)</item>
+            <item>Trip Distance (km)</item>
+            <item>Volume (L)</item>
+            <item>Miles per liter (mi/L)</item>
+            <item>Liters per kilometer (L/km)</item>
+            <item>Liters per 10 kilometer (L/10km)</item>
+            <item>Liters per 100 kilometer (L/100km)</item>
+            <item>Kilometers per liter (km/L)</item>
+            <item>&lt;Currency&gt; per 100km (&lt;C&gt;/100km)</item>
+        </string-array>
+        <string-array name="display_unit_value">
+            <item>totalprice</item>
+            <item>price</item>
+            <item>mi</item>
+            <item>mi_diff</item>
+            <item>gal</item>
+            <item>mile_gallon</item>
+            <item>gallon_100mile</item>
+            <item>liter_100mile</item>
+            <item>currency_mile</item>
+            <item>km</item>
+            <item>km_diff</item>
+            <item>L</item>
+            <item>mile_liter</item>
+            <item>liter_km</item>
+            <item>liter_10km</item>
+            <item>liter_100km</item>
+            <item>km_liter</item>
+            <item>currency_km</item>
+        </string-array>
+        <string-array name="cost_types">
+            <item>Oil Change</item>
+            <item>Repair</item>
+            <item>Maintenance</item>
+            <item>Parking</item>
+            <item>Insurance</item>
+            <item>Registration</item>
+            <item>Create New...</item>
+        </string-array>
+        <string-array name="cost_types_value">
+            <item>oilchange</item>
+            <item>repair</item>
+            <item>maintenance</item>
+            <item>parking</item>
+            <item>insurance</item>
+            <item>registration</item>
+            <item>createnew</item>
+        </string-array>
+        <!-- unit name | short title | decimal points | long title | CUR -->
+        <string-array name="unit_map">
+            <item>totalprice|Total Price|2|Total Price|CUR</item>
+            <item>price|Price|2|Unit Price|CUR</item>
+            <item>mi|Odometer (mi)|0|Miles||</item>
+            <item>distance|Odometer (mi)|0|Miles||</item>
+            <item>mi_diff|Trip Dist. (mi)|0|Trip Distance (mi)||</item>
+            <item>gal|Volume (gal)|3|Gallons|</item>
+            <item>mile_gallon|MPG|1|MPG|</item>
+            <item>gallon_100mile|Gal/100mi|1|Gallons/100Miles|</item>
+            <item>liter_100mile|L/100mi|1|Liters/100Miles|</item>
+            <item>currency_mile|CUR/100mi|2|CUR/100Miles|CUR</item>
+            <item>km|Odometer (km)|0|Kilometers|</item>
+            <item>km_diff|Trip Dist. (km)|0|Trip Distance (km)||</item>
+            <item>L|Volume (L)|3|Liters|L|</item>
+            <item>mile_liter|mi/L|1|Miles/Liter|</item>
+            <item>liter_km|L/km|1|Liters/Kilometer|</item>
+            <item>liter_10km|L/10km|1|Liters/10Kilometers|</item>
+            <item>liter_100km|L/100km|1|Liters/100Kilometers|</item>
+            <item>km_liter|km/L|3|Kilometers/Liter|</item>
+            <item>currency_km|CUR/100km|2|CUR/100Kilometers|CUR</item>
+        </string-array>
+        <string-array name="years">
+            <item >2012</item>
+            <item >2011</item>
+            <item >2010</item>
+            <item >2009</item>
+            <item >2008</item>
+            <item >2007</item>
+            <item >2006</item>
+            <item >2005</item>
+            <item >2004</item>
+            <item >2003</item>
+            <item >2002</item>
+            <item >2001</item>
+            <item >2000</item>
+            <item >1999</item>
+            <item >1998</item>
+            <item >1997</item>
+            <item >1996</item>
+            <item >1995</item>
+            <item >1994</item>
+            <item >1993</item>
+            <item >1992</item>
+            <item >1991</item>
+            <item >1990</item>
+            <item >1989</item>
+            <item >1988</item>
+            <item >1987</item>
+            <item >1986</item>
+            <item >1985</item>
+            <item >1984</item>
+            <item >1983</item>
+            <item >1982</item>
+            <item >1981</item>
+            <item >1980</item>
+            <item >1979</item>
+            <item >1978</item>
+            <item >1977</item>
+            <item >1976</item>
+            <item >1975</item>
+            <item >1974</item>
+            <item >1973</item>
+            <item >1972</item>
+            <item >1971</item>
+            <item >1970</item>
+        </string-array>
+        <string-array name="make">
+			<item>Acura </item>
+			<item>Audi</item>
+			<item>BMW</item> 
+			<item>Buick</item> 
+			<item>Cadillac</item> 
+			<item>Chevrolet</item> 
+			<item>Chrysler</item> 
+			<item>Dodge</item> 
+			<item>Eagle</item> 
+			<item>Ferrari</item> 
+			<item>Ford</item> 
+			<item>General Motors</item> 
+			<item>Global Electric Motorcars</item> 
+			<item>GMC</item> 
+			<item>Honda</item> 
+			<item>Hummer</item> 
+			<item>Hyundai</item> 
+			<item>Infiniti</item> 
+			<item>Isuzu</item> 
+			<item>Jaguar</item> 
+			<item>Jeep</item> 
+			<item>Kia</item> 
+			<item>Lamborghini</item> 
+			<item>Land Rover</item> 
+			<item>Lexus</item> 
+			<item>Lincoln</item> 
+			<item>Lotus</item> 
+			<item>Mazda</item> 
+			<item>Mercedes-Benz</item> 
+			<item>Mercury</item> 
+			<item>Mitsubishi</item> 
+			<item>Nissan</item> 
+			<item>Oldsmobile</item> 
+			<item>Peugeot</item> 
+			<item>Pontiac</item> 
+			<item>Porsche</item> 
+			<item>Regal (Buick)</item> 
+			<item>Saab</item> 
+			<item>Saturn</item> 
+			<item>Subaru</item> 
+			<item>Suzuki</item> 
+			<item>Toyota</item> 
+			<item>Volkswagen</item> 
+			<item>Volvo</item> 
+        </string-array>
+    </resources>

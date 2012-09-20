@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gas Graph</string>
+    <string name="main_title">Fill-up History</string>
+    <string name="preferences">Gas Graph Preferences</string>
+    <string name="add">Add</string>
+    <string name="add_dialog">Add Dialog</string>
+    
+    <string name="distance_label">Odometer:</string>
+    <string name="price_label">Unit Price:</string>
+    <string name="volume_label">Volume:</string>
+    
+    <string name="cost_price">Cost:</string>
+    <string name="cost_type">Type:</string>
+    <string name="cost_note">Note:</string>
+    <string name="cost_mark">Mark on Graphs</string>
+    
+    <string name="distance_unit">   (miles)</string>
+    <string name="price_unit">   (USD)</string>
+    <string name="volume_unit">   (gallons)</string>
+    
+    <string name="error_no_data">  Not Enough Data:  </string>
+    <string name="error_loading">Network load failure: </string>
+    
+    <string name="date">Date:</string>
+    
+    <string name="ZERO">0.000</string>
+    <string name="ZERO2">$0.00</string>
+    <string name="fullTank">Tank filled?</string>
+    <string name="full_yes">Full</string>
+    <string name="full_partial">Partial</string>
+    <string name="full_no">Not full</string>
+    <string name="time_format_display">MMM dd, hh:mm</string>
+    <string name="time_format_storage">yyyy-MM-dd\'T\'HH:mm:ss.SSSZ</string>
+    <string name="time_format_export">yyyy-MM-dd</string>
+    
+    <string name="fueltype_label">Fuel type:</string>
+    <string name="filename">gasgraph.csv</string>
+    
+    <string name="manage_year">Year</string>
+    <string name="manage_make">Make</string>
+    <string name="manage_model">Model</string>
+    <string name="manage_submodel">Sub-model</string>
+    <string name="manage_save">Save</string>
+    <string name="manage_cancel">Cancel</string>
+    
+    <string name="menu_showgraph">Show Graph</string>
+    <string name="menu_sample">Load Samples</string>
+    <string name="menu_add">Add Entry</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_reset">Unload Samples</string>
+    <string name="menu_usage">How-To</string>
+    <string name="menu_reload">Reload</string>
+    <string name="menu_import_export">Import/Export</string>
+    <string name="menu_import">Import CSV</string>
+    <string name="menu_export">Export CSV</string>
+    <string name="menu_manage">Vehicle</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="header_date">Fill Date</string>
+    <string name="header_distance">Odometer</string>
+    <string name="header_primary">  MPG</string>
+    <string name="header_extra">PPM</string>
+    <string name="header_totalprice">Price </string>
+    
+    <string name="header_type">Service Type</string>
+    <string name="header_other">...</string>
+    
+    <string name="add_type_tank">Type/Tank</string>
+    <string name="add_save">Save</string>
+    <string name="add_cancel">Cancel</string>
+    <string name="add_delete">Delete</string>
+    <!--string name="add_startover">First After A Break</string-->
+    <string name="add_startover">After Missed Fillup</string>
+    
+    <string name="add_title_add">Add Fuel Record</string>
+    <string name="add_title_edit">Edit Fuel Record</string>
+    
+    <string name="service_title_add">Add Service Record</string>
+    <string name="service_title_edit">Edit Service Record</string>
+    
+    <string name="dialog_dismiss">Dismiss</string>
+    
+    <string name="pref_networkshare">Share Usage Information</string>
+    <string name="pref_sampledata">Load Sample Data?</string>
+    <string name="pref_clearsampledata">Clear Sample Data?</string>
+    <string name="pref_marketReview">I have written a review</string>
+    <string name="pref_startOnAdd">Start On Add Record</string>
+    <string name="pref_startOnList">Start On History List</string>
+    <string name="pref_graphdark">Dark Graph Background</string>
+    <string name="pref_graphsmooth">Smooth Graph</string>
+    <string name="pref_graphbackup">Graph Backup Server</string>
+    
+    <string name="pref_summary_year">Your vehicle Year (year)</string>
+    <string name="pref_title_year">Year</string>
+    
+    <string name="pref_summary_make">The vehicle Make (make)</string>
+    <string name="pref_title_make">Make</string>
+    
+    <string name="pref_summary_model">Your vehicle Model (model)</string>
+    <string name="pref_title_model">Model</string>
+    
+    <string name="pref_summary_color">(color)</string>
+    <string name="pref_summary_currency">All prices are displayed with this symbol. (currency)</string>
+    
+    <string name="pref_summary_volume">All stored fill up Volumes are saved in this unit (volume). 
+        							   Previously saved fill ups are unchanged.</string>
+        							   
+    <string name="pref_summary_distance">All stored Odometer values are saved in this unit (distance).
+        							   Previously saved fill ups are unchanged.</string>
+    
+    <string name="pref_summary_units_cn">(units_cn)</string>
+    <string name="pref_summary_units_tr">(units_tr)</string>
+    <string name="pref_summary_units_br">(units_br)</string>
+    <string name="pref_summary_units_bl">(units_bl)</string>
+    
+    <string name="widget_export_button">Export</string>
+    <string name="widget_history_button">Add Fill Up</string>
+    
+    <string name="HelpServiceCost">How much did this service cost.</string>
+    <string name="HelpMark">Whether or not to indicate this event on Graphs. By making marks 
+        		you may be able to notice a causal relationship between services and performance.</string>
+    <string name="HelpCostTypes">This is the type of expense for this service record.</string>
+    <string name="HelpDate">The date this fill-up occurred.</string>
+    <string name="HelpDistance">The absolute odometer reading of your vehicle.</string>
+    <string name="HelpPrice">The unit price per volume.</string>
+    <string name="HelpVolume">The total volume put into the tank.</string>
+    <string name="HelpFull">Check \'Full Tank\' if the total volume filled the tank completely. If the 
+        tank is not completely full, then uncheck \'Full Tank\'. By setting this value accurately, 
+        GasGraph can calculate fuel efficiency accurately.</string>
+    <string name="HelpBreak">GasGraph calculates fuel efficiency with consecutive, 
+        full-tank fill-ups.  GasGraph can still make correct calculations when a fill-up does 
+        not fill the tank, as long as fill-ups are recorded consecutively.  If one or more 
+        fill-ups are not recorded, then a break has occurred in the history. When you then record a new 
+        fill-up after a break, that fill-up is the \'First After A Break\'.
+        This setting helps keep correct statistics when there is missing fill-up history.</string>
+        
+    <style name="ButtonText">
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">18dp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+	</style>    
+    <style name="ButtonTextNormal">
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:textColor">#ffffff</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:textSize">14dp</item>
+    	<item name="android:textStyle">normal</item>
+	</style>    
+	
+    <style name="MooTheme" parent="android:Theme">
+        <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+        <item name="android:listViewStyle">@style/MyListView</item>
+    </style>
+
+    <style name="MooSpinnerItem" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/MooTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="MooTextAppearanceSpinnerItem" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:textColor">#CCC</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="yellow1">#F9E60E</color>
+   <color name="yellow2">#F9F89D</color>
+   <color name="orange4">#F7BE45</color>
+   <color name="orange5">#F7D896</color>
+   <color name="blue1">#00ACE2</color>
+   <color name="import_bg">#000000</color>
+   <color name="export_bg">#444444</color>
+   <!--color name="import_bg">#043344</color-->
+   <color name="grey05">#ACA899</color>
+   <color name="btn_border">#000000</color>
+   <color name="white1">#FFFFFF</color>
+   <color name="white2">#DDDDDD</color>
+   
+   <color name="black_top">#777777</color>
+   <color name="black_center">#333333</color>
+   <color name="black_bottom">#333333</color>
+</resources>

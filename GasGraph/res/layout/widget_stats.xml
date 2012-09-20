@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textTitleCar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Volvo 850 1997" />
+        
+        <TextView
+            android:id="@+id/textTitleDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Jan 1 2010 - Feb 25, 2012" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="top"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            >
+
+            <TableLayout
+                android:id="@+id/tableRows"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF333333"
+                android:stretchColumns="0" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r00"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r01"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" 
+                        android:typeface="monospace"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r21"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r31"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r40"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r41"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r50"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r51"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r60"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r61"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r70"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r71"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r80"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r81"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r90"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r91"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r100"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r101"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r110"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r111"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r120"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r121"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r130"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r131"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r140"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r141"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FF000000" >
+
+                    <TextView
+                        android:id="@+id/r150"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:singleLine="true"
+                        android:text="Label Name"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFAAAAAA" />
+
+                    <TextView
+                        android:id="@+id/r151"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="0.00"
+                        android:typeface="monospace"
+            			android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFFFFFFF" />
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.thinkseedo.gasgraph.widget.TimeBarWidget
+            android:id="@+id/timeBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom" >
+        </com.thinkseedo.gasgraph.widget.TimeBarWidget>
+
+    </LinearLayout>
+
+</LinearLayout>

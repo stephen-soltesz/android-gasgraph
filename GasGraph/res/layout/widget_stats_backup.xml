@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:background="#FF222222"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Service Stats"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:textColor="#FFFFFFFF"
+            android:text="Volvo 850 1997 * Jan 1 2010 - Feb 25, 2012" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/tableRows"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+    		android:layout_margin="10dp"
+            android:background="#FF333333"
+            android:layout_height="fill_parent" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+            	android:background="#FF222222"
+                android:layout_marginBottom="1dp" />
+
+            <TableRow
+                android:id="@+id/TableRow07"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r00"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:text="Average MPG"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r01"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView35"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r02"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:text="Cost per Mile"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r03"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Maximum MPG"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Cost per Gallon"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <TextView
+                    android:id="@+id/r20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Minimum MPG"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r21"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <TextView
+                    android:id="@+id/r22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Cost per Day"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <TextView
+                    android:id="@+id/r30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Costs"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r31"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:text="Cost per Fill Up"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r33"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <TextView
+                    android:id="@+id/r40"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Miles"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r41"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r42"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.6"
+                    android:text="Gallons per Fill Up"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r43"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".9"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:background="#FF222222" >
+
+                <TextView
+                    android:id="@+id/r50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:text="Total Gallons"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r51"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r52"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.6"
+                    android:singleLine="true" 
+                    android:text="Miles per Fill Up"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r53"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow02"
+                android:layout_width="fill_parent"
+            	android:background="#FF222222"
+                android:layout_marginBottom="1dp"
+                android:layout_height="wrap_content" >
+
+                <taptwo.widget.AutoResizeTextView
+                    android:id="@+id/r60"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:text="Total Fill Ups"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r61"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <TextView
+                    android:id="@+id/r62"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Miles per Day"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r63"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="fill_parent"
+            	android:background="#FF222222"
+                android:layout_marginBottom="1dp"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/r70"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Total Days"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="25.25"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2" />
+
+                <TextView
+                    android:id="@+id/r72"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Miles per $"
+                    android:singleLine="true" 
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFAAAAAA" />
+
+                <TextView
+                    android:id="@+id/r73"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="$0.10"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+        </TableLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" >
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <com.thinkseedo.gasgraph.widget.TimeBarWidget
+        	android:id="@+id/timeBar"
+        	android:layout_width="fill_parent"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content" >
+        </com.thinkseedo.gasgraph.widget.TimeBarWidget>
+
+    </TableRow>
+
+    <!--TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grey_background" >
+
+        <ToggleButton
+            android:id="@+id/toggleWeek"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector"
+            android:layout_weight="1"
+            android:textOn="1w"
+            android:textOff="1w" />
+        
+        <ToggleButton
+            android:id="@+id/toggleMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector" android:text="" 
+            android:layout_weight="1"
+            android:textOn="1m"
+            android:textOff="1m" />
+
+        <ToggleButton
+            android:id="@+id/toggleThreeMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector" android:text="" 
+            android:layout_weight="1"
+            android:textOn="3m"
+            android:textOff="3m" />
+        
+        <ToggleButton
+            android:id="@+id/toggleSixMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector" android:text="" 
+            android:layout_weight="1"
+            android:textOn="6m"
+            android:textOff="6m" />
+        <ToggleButton
+            android:id="@+id/toggleYear"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector" android:text="" 
+            android:layout_weight="1"
+            android:textOn="1y"
+            android:textOff="1y" />
+        <ToggleButton
+            android:id="@+id/toggleAll"
+            android:checked="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+            android:background="@drawable/button_selector" android:text="" 
+            android:layout_weight="1"
+            android:textOn="All"
+            android:textOff="All" />
+    </TableRow-->
+
+</TableLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kankan.wheel.widget.WheelView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.thinkseedo.gasgraph"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    custom:padding="8dp"
+    android:layout_gravity="right"
+    android:gravity="right" 
+/>

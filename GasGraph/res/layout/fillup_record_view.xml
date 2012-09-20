@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/car_fuel" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" >
+
+            <TableRow 
+                android:weightSum="4"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/textDate_lv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.4"
+                    android:gravity="left"
+                    android:singleLine="true" 
+                    android:text="@string/header_date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1" />
+
+                <TextView
+                    android:id="@+id/textTR_lv"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1.5"
+                    android:singleLine="true" 
+                    android:gravity="right"
+                    android:text="@string/header_totalprice"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF" />
+            </TableRow>
+
+            <TableRow 
+                android:weightSum="3"
+                android:layout_height="fill_parent" >
+
+                <TextView
+                    android:id="@+id/textBL_lv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true" 
+                    android:text="@string/header_distance"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#888888" />
+
+                <TextView
+                    android:id="@+id/textCN_lv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:singleLine="true" 
+                    android:text="@string/header_primary"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#888888" />
+
+                <TextView
+                    android:id="@+id/textBR_lv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:singleLine="true" 
+                    android:text="@string/header_extra"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#888888" />
+            </TableRow>
+        </TableLayout>
+
+    </TableRow>
+
+</TableLayout>

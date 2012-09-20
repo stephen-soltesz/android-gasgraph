@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.thinkseedo.gasgraph"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+      <LinearLayout
+          android:id="@+id/linearLayout2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="0dp"
+          android:layout_toLeftOf="@+id/imageHelp"
+          android:padding="0dp"
+          android:weightSum="2" >
+
+
+          <EditText
+              android:id="@+id/editValue"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.25"
+              android:gravity="right"
+              android:visibility="gone"
+              android:inputType="phone" >
+          </EditText>
+
+          <Spinner
+              android:id="@+id/spinnerValue"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.25"
+              android:visibility="gone"
+              android:entries="@array/cost_types"
+              android:saveEnabled="true" />
+
+          <ToggleButton
+              android:id="@+id/checkValue"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.25"
+              android:visibility="gone"
+              style="@style/ButtonTextNormal"
+              android:background="@drawable/btn_toggle_bg"
+              android:textOff="Off"
+              android:textOn="On" />
+
+          <Button
+              android:id="@+id/buttonValue"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/btn_dark_custom" 
+              style="@style/ButtonTextNormal"
+              android:visibility="gone"
+              android:layout_weight="1.250" />
+          
+     	 <com.thinkseedo.gasgraph.widget.NumberDial
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+                android:layout_weight="1.25"
+                android:layout_gravity="right"
+				android:gravity="right"
+				android:id="@+id/wheelValue"
+				android:tag="6"
+	 		/>
+     	 
+          <TextView
+              android:id="@+id/textLabel"
+              android:layout_width="0dp"
+              android:layout_height="fill_parent"
+              android:layout_weight="0.75"
+              android:layout_marginLeft="5dp"
+              android:gravity="center_vertical|center"
+              android:text="@string/distance_label"
+              android:textStyle="bold"
+              />
+
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/imageHelp"
+          android:layout_width="31dp"
+          android:layout_height="24dp"
+          android:paddingRight="7dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_alignBottom="@+id/linearLayout2"
+          android:onClick="showHelp"
+          android:src="@drawable/ic_menu_help"
+          android:tag="" />
+
+</RelativeLayout>

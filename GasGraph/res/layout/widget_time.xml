@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_dark_custom" 
+    android:orientation="horizontal" >
+    
+        <ToggleButton
+            android:id="@+id/toggleWeek"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:background="@drawable/dark_button"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white1"
+            android:layout_weight="1"
+            android:checked="true"
+            android:textOn="1w"
+            android:textOff="1w" />
+        
+        <ToggleButton
+            android:id="@+id/toggleMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:text="" 
+            android:background="@drawable/dark_button"
+            android:textColor="@color/white1"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textOn="1m"
+            android:textOff="1m" />
+
+        <ToggleButton
+            android:id="@+id/toggleThreeMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:background="@drawable/dark_button"
+            android:textColor="@color/white1"
+            android:textStyle="bold"
+            android:text="" 
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textOn="3m"
+            android:textOff="3m" />
+        
+        <ToggleButton
+            android:id="@+id/toggleSixMonth"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:background="@drawable/dark_button"
+            android:textColor="@color/white1"
+            android:textStyle="bold"
+            android:text="" 
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textOn="6m"
+            android:textOff="6m" />
+        <ToggleButton
+            android:id="@+id/toggleYear"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:background="@drawable/dark_button"
+            android:textColor="@color/white1"
+            android:textStyle="bold"
+            android:text="" 
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textOn="1y"
+            android:textOff="1y" />
+        <ToggleButton
+            android:id="@+id/toggleAll"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" 
+            android:background="@drawable/dark_button"
+            android:textColor="@color/white1"
+            android:textStyle="bold"
+            android:text="" 
+            android:layout_weight="1"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textOn="All"
+            android:textOff="All" />
+</LinearLayout>

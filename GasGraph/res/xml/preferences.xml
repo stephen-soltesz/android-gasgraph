@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Vehicle Description (used in graphs)">
+      <ListPreference 
+          android:key="year" 
+          android:summary="@string/pref_summary_year" 
+          android:title="@string/pref_title_year" 
+          android:entries="@array/years" 
+          android:entryValues="@array/years" />
+      <ListPreference android:key="make" android:summary="The vehicle Make (Manufacturer)" android:title="Make" android:entries="@array/make" android:entryValues="@array/make"/>
+      <EditTextPreference android:title="Model" android:summary="Your Vehicle Model" android:key="model"/>
+      <ListPreference android:key="color" 
+          		android:title="Graph Color"
+          		android:entries="@array/color"
+    	    	android:defaultValue="FF9500"
+          		android:summary=""
+          		android:entryValues="@array/color_values"/>
+      <CheckBoxPreference
+                android:key="graphdark"
+                android:title="@string/pref_graphdark"
+    	    	android:defaultValue="true"
+                android:summary="Use a dark background on graphs when checked.  Use a light background when unchecked." />
+      <CheckBoxPreference
+                android:key="graphsmooth"
+                android:title="@string/pref_graphsmooth"
+    	    	android:defaultValue="true"
+                android:summary="Use graph smoothing when checked.  Use raw points when unchecked." />
+      <!-- CheckBoxPreference
+                android:key="graphbackup"
+                android:title="@string/pref_graphbackup"
+    	    	android:defaultValue="false"
+                android:summary="Use the graph backup server instead of the primary server (for testing)." /-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Units for History Display">
+	    <ListPreference android:entryValues="@array/display_unit_value" android:entries="@array/display_unit" android:key="units_cn" android:defaultValue="mile_gallon" android:title="Center Value" android:summary="(Default is MPG)"/>
+	    <ListPreference android:entryValues="@array/display_unit_value" android:entries="@array/display_unit" android:key="units_tr" android:defaultValue="totalprice" android:title="Top Right Value" android:summary="(Default is Total Price)"/>
+	    <ListPreference android:entryValues="@array/display_unit_value" android:entries="@array/display_unit" android:key="units_bl" android:defaultValue="mi" android:title="Bottom Left Value" android:summary="(Default is Odometer (mi))"/>
+	    <ListPreference android:entryValues="@array/display_unit_value" android:entries="@array/display_unit" android:key="units_br" android:defaultValue="currency_mile" android:title="Bottom Right Value" android:summary="(Default is $/mi)"/>
+    	<ListPreference android:entries="@array/currency" 
+    	    			android:entryValues="@array/currency_values" 
+    	    			android:key="currency" 
+    	    			android:defaultValue="dollar" 
+    	    			android:title="Currency Symbol" 
+    	    			android:summary="@string/pref_summary_currency"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Units for Entering &amp; Storing Fill Ups">
+    	<ListPreference android:entries="@array/volume" 
+    	    			android:entryValues="@array/volume_values" 
+    	    			android:key="volume" 
+    	    			android:defaultValue="gal" 
+    	    			android:title="Volume Units" 
+    	    			android:summary="@string/pref_summary_volume"/>
+    	<ListPreference android:entries="@array/distance" 
+    	    			android:entryValues="@array/distance_values" 
+    	    			android:key="distance" 
+    	    			android:defaultValue="mi" 
+    	    			android:title="Distance Units" 
+    	    			android:summary="@string/pref_summary_distance"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Default Start Screen">
+        <CheckBoxPreference
+                android:key="startOnList"
+                android:title="@string/pref_startOnList"
+    	    	android:defaultValue="true"
+                android:summary="Start on History List if checked. Start on Add Record if not checked." />
+        <!--  CheckBoxPreference
+                android:key="startOnAdd"
+                android:title="@string/pref_startOnAdd"
+    	    	android:defaultValue="false"
+                android:summary="Start on Add Record if checked. Start on History List if not checked." /-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Market Review">
+        <CheckBoxPreference
+                android:key="marketReview"
+                android:title="@string/pref_marketReview"
+    	    	android:defaultValue="false"
+                android:summary="Writing a positive review will support future versions and lets others know this is an App worth trying out. Also, it's good karma." />
+    </PreferenceCategory>
+    <!--  PreferenceCategory android:title="Sample Data">
+        <CheckBoxPreference
+                android:key="sampledata"
+                android:title="@string/pref_sampledata"
+    	    	android:defaultValue="true"
+                android:summary="Load a sample database to test features without modifying your own data." />
+        <CheckBoxPreference
+                android:key="clearsampledata"
+                android:title="@string/pref_clearsampledata"
+    	    	android:defaultValue="false"
+                android:summary="When unchecked a sample database is loaded to test features without modifying your own data." />
+    </PreferenceCategory-->
+    <PreferenceCategory android:title="Share Usage">
+        <CheckBoxPreference
+                android:key="network"
+                android:title="@string/pref_networkshare"
+    	    	android:defaultValue="true"
+                android:summary="All usage information is anonymous. And, by sharing how you use GasGraph, you help improve future versions." />
+    </PreferenceCategory>
+</PreferenceScreen>

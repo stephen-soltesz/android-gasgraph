@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textDate_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="2"
+        android:gravity="left"
+        android:text="@string/header_date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textBL_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textDate_lv"
+        android:gravity="left"
+        android:text="@string/header_distance"
+        android:textColor="#888888"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textBL_lv"
+        android:layout_toRightOf="@+id/textBL_lv"
+        android:gravity="left"
+        android:textColor="#888888" />
+
+    <TextView
+        android:id="@+id/textCN_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="@string/header_primary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textCN_lv"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="Total"
+        android:textColor="#888888"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" android:paddingLeft="30dp" android:paddingRight="30dp"/>
+
+    <TextView
+        android:id="@+id/textBR_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textTrip"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textPrice"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="$/100mi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textBR_lv"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:text="Volume"
+        android:textColor="#888888"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textVolume"
+        android:layout_alignBottom="@+id/textVolume"
+        android:layout_toRightOf="@+id/textVolume"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:text=" @ Price"
+        android:textColor="#888888"
+        android:textStyle="bold" />
+
+</RelativeLayout>

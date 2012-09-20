@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:custom="http://schemas.android.com/apk/res/com.thinkseedo.gasgraph"
+      android:id="@+id/scrollView1"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" 
+      android:fillViewport="true"
+      android:orientation="vertical" >
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <RelativeLayout
+          android:id="@+id/relativeLayout1"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="0dp"
+          android:background="@drawable/title_bg"
+          android:gravity="left" >
+
+          <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:contentDescription=""
+              android:src="@drawable/gasgraph" />
+
+          <TextView
+              android:id="@+id/textTitle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_centerVertical="true"
+              android:layout_toRightOf="@+id/imageView2"
+              android:gravity="center"
+              style="@style/ButtonText"
+              android:textAppearance="?android:attr/textAppearanceLarge" />
+      </RelativeLayout>
+
+      <com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowDate"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          custom:labelText="@string/date"
+          custom:valueText="Date"
+          custom:valueType="button"
+          custom:helpName="HelpDate" />
+      <!--RelativeLayout
+          android:id="@+id/relativeLayout2"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+
+          <ImageView
+              android:id="@+id/imageHelpDate"
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:onClick="showHelp"
+              android:src="@drawable/ic_menu_help"
+              android:tag="HelpDate" />
+
+          <LinearLayout
+              android:id="@+id/linearLayout1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_alignTop="@+id/imageHelpDate"
+              android:layout_margin="0dp"
+              android:layout_toRightOf="@+id/imageHelpDate"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <TextView
+                  android:id="@+id/textDateLabel"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight="0.80"
+                  android:gravity="center_vertical"
+                  android:text="@string/date"
+                  android:textStyle="bold" />
+
+              <Button
+                  android:id="@+id/textCurrentDate"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.20" />
+          </LinearLayout>
+      </RelativeLayout-->
+
+      <com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowDistance"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:gravity="right"
+          custom:labelText="@string/distance_label"
+          custom:valueText="0"
+          custom:valueType="wheel"
+          custom:valueWidth="6"
+          custom:helpName="HelpPrice" />
+      
+      <!--RelativeLayout
+          android:id="@+id/relativeLayout6"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+
+          <LinearLayout
+              android:id="@+id/linearLayout6"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="0dp"
+              android:layout_toRightOf="@+id/ImageView01"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight=".8"
+              	  android:textStyle="bold"
+                  android:gravity="center_vertical"
+                  android:text="@string/distance_label" />
+
+     		 <com.thinkseedo.gasgraph.widget.NumberDial
+				android:layout_marginTop="4dp"
+				android:gravity="center_vertical"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+                android:layout_weight="1.2"
+				custom:padding="8dp"
+				android:id="@+id/odometer"
+				android:tag="6"
+	 		/>
+          </LinearLayout>
+
+          <ImageView
+              android:id="@+id/ImageView01"
+              android:layout_width="31dp"
+              android:layout_height="24dp"
+              android:paddingRight="7dp"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:clickable="true"
+              android:onClick="showHelp"
+              android:src="@drawable/ic_menu_help"
+              android:tag="HelpFull" />
+      </RelativeLayout-->
+
+     <!--  com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowDistance"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:visibility="gone"
+          custom:labelText="@string/distance_label"
+          custom:valueText="0"
+          custom:decimalPlaces="0"
+          custom:valueType="number"
+          custom:helpName="HelpDistance" /-->
+      <!--RelativeLayout
+          android:id="@+id/relativeLayout3"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+
+          <LinearLayout
+              android:id="@+id/linearLayout2"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="0dp"
+              android:layout_toRightOf="@+id/imageHelpDistance"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <TextView
+                  android:id="@+id/textDistance"
+                  android:layout_width="0dp"
+                  android:layout_weight=".8"
+                  android:layout_height="fill_parent"
+                  android:gravity="center_vertical"
+                  android:text="@string/distance_label"
+                  android:textColor="#FFFFFFFF"
+                  android:textStyle="bold" />
+
+              <EditText
+                  android:id="@+id/editDistance"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.2"
+                  android:gravity="right"
+                  android:inputType="phone" >
+
+                  <requestFocus />
+              </EditText>
+          </LinearLayout>
+
+          <ImageView
+              android:id="@+id/imageHelpDistance"
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:onClick="showHelp"
+              android:src="@drawable/ic_menu_help"
+              android:tag="HelpDistance" />
+      </RelativeLayout-->
+
+   <com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowPrice"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right"
+          android:gravity="right"
+          custom:labelText="@string/price_label"
+          custom:valueText="0"
+          custom:decimalPlaces="3"
+          custom:valueType="wheel"
+          custom:valueWidth="4"
+          custom:wheelFraction="true"
+          custom:helpName="HelpPrice" />
+      <!--RelativeLayout
+          android:id="@+id/relativeLayout4"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+
+          <LinearLayout
+              android:id="@+id/linearLayout3"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="0dp"
+              android:layout_toRightOf="@+id/imageHelpPrice"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <TextView
+                  android:id="@+id/textPrice"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight=".8"
+                  android:gravity="center_vertical"
+                  android:text="@string/price_label"
+                  android:textStyle="bold" />
+
+              <EditText
+                  android:id="@+id/editPrice"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.2"
+                  android:gravity="right"
+                  android:inputType="phone"
+                  android:text="@string/ZERO2" />
+          </LinearLayout>
+
+          <ImageView
+              android:id="@+id/imageHelpPrice"
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:onClick="showHelp"
+              android:src="@drawable/ic_menu_help"
+              android:tag="HelpPrice" />
+      </RelativeLayout-->
+
+ 	<com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowVolume"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          custom:labelText="@string/volume_label"
+          custom:valueText="0"
+          custom:decimalPlaces="3"
+          custom:valueType="wheel"
+          custom:valueWidth="5"
+          custom:helpName="HelpVolume" />
+      <!-- RelativeLayout
+          android:id="@+id/RelativeLayout01"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+
+          <LinearLayout
+              android:id="@+id/LinearLayout01"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="0dp"
+              android:layout_toRightOf="@+id/ImageView02"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <TextView
+                  android:id="@+id/textVolume"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight=".8"
+                  android:gravity="center_vertical"
+                  android:text="@string/volume_label"
+                  android:textStyle="bold"
+                  />
+
+              <EditText
+                  android:id="@+id/editVolume"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.2"
+                  android:gravity="right"
+                  android:inputType="phone"
+                  android:text="@string/ZERO" />
+          </LinearLayout>
+
+          <ImageView
+              android:id="@+id/ImageView02"
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:clickable="true"
+              android:onClick="showHelp"
+              android:src="@drawable/ic_menu_help"
+              android:tag="HelpFull" />
+      </RelativeLayout-->
+
+      <RelativeLayout
+          android:id="@+id/relativeLayout6"
+          android:layout_width="fill_parent"
+          android:layout_marginTop="3dp"
+          android:layout_height="wrap_content" >
+
+          <LinearLayout
+              android:id="@+id/linearLayout6"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_margin="0dp"
+              android:padding="0dp"
+              android:weightSum="2" >
+
+              <Spinner
+                  android:id="@+id/spinnerFuelType"
+                  style="@style/MooSpinnerItem"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:layout_weight=".75"
+                  android:background="@drawable/custom_dropdown"
+                  android:entries="@array/fuel_type"
+                  android:saveEnabled="true" />
+
+              <ToggleButton
+                  android:id="@+id/checkBoxFull"
+                  style="@style/ButtonTextNormal"
+                  android:layout_width="0dp"
+                  android:layout_weight=".50"
+                  android:background="@drawable/btn_toggle_bg"
+                  android:checked="true"
+                  android:paddingBottom="20dp"
+                  android:textOff="@string/full_partial"
+                  android:textOn="@string/full_yes" />
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="0dp"
+                  android:layout_height="fill_parent"
+                  android:layout_weight=".75"
+              	  android:layout_marginLeft="5dp"
+                  android:gravity="center_vertical|center"
+                  android:text="@string/add_type_tank"
+                  android:textStyle="bold" />
+
+              <ImageView
+                  android:id="@+id/ImageView01"
+                  android:layout_width="31dp"
+                  android:layout_height="wrap_content"
+                  android:clickable="true"
+                  android:onClick="showHelp"
+                  android:paddingRight="7dp"
+                  android:src="@drawable/ic_menu_help"
+                  android:tag="HelpFull" />
+          </LinearLayout>
+
+      </RelativeLayout>
+      <com.thinkseedo.gasgraph.widget.RowWidget
+          android:id="@+id/rowBreak"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          custom:labelText=""
+          custom:valueText="@string/add_startover"
+          custom:valueType="toggle"
+          custom:helpName="HelpBreak" />
+      
+      
+     <com.thinkseedo.gasgraph.widget.NotesWidget
+            android:id="@+id/notesWidget"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+      <!--  RelativeLayout
+          android:id="@+id/relativeLayout7"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" >
+          <EditText
+              android:id="@+id/editNotes"
+              android:layout_width="100dp"
+              android:layout_height="wrap_content"
+              android:layout_above="@+id/buttonCancel"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/checkedNotes"
+              android:gravity="top"
+              android:inputType="textMultiLine"
+              android:lines="5"
+              android:minLines="5" />
+          
+          <CheckedTextView
+              android:id="@+id/checkedNotes"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:paddingBottom="10dp"
+              android:paddingRight="10dp"
+              android:text="> Notes" />
+      </RelativeLayout-->
+
+      <LinearLayout
+          android:id="@+id/linearLayout8"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_margin="0dp"
+          android:padding="0dp"
+          android:weightSum="3" >
+
+          <Button
+              android:id="@+id/buttonCancel"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:layout_weight="1.25"
+            	android:background="@drawable/btn_dark_custom" 
+            	style="@style/ButtonText"
+              android:text="@string/add_cancel" />
+
+          <Button
+              android:id="@+id/buttonAdd"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.75"
+              android:layout_gravity="bottom"
+            	android:background="@drawable/btn_dark_custom" 
+            	style="@style/ButtonText"
+              android:text="@string/add_save" />
+
+      </LinearLayout>
+
+  </LinearLayout>
+
+</ScrollView>
