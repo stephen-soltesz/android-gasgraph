@@ -6,4 +6,4 @@
 *.ear
 .DS_Store
 .svn/*
-gen/*
+gen
