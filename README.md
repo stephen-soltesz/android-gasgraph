@@ -8,8 +8,10 @@ Setup
 Follow the steps for installing Eclipse, and the Android development
 environment within Eclipse.
 
+   * https://developer.android.com/sdk/index.html
+
 Download source:
-   git clone git@github.com:stephen-soltesz/android-gasgraph.git
+   git clone https://github.com/stephen-soltesz/android-gasgraph.git
 
 Then, start Eclipse and import GasGraph into your workspace:
 
@@ -34,8 +36,8 @@ GasGraph depends on two external libraires:
 
 Download these libraries and add them to the build path.
 
-    * File -> Properties -> Java Build Path -> Libraries
-    * Click on the missing JAR files, and click Edit
-    * Choose the location of appropriate jar in your file system
+  * File -> Properties -> Java Build Path -> Libraries
+  * Click on the missing JAR files, and click Edit
+  * Choose the location of appropriate jar in your file system
 
 Now you should be able to build and run the source.
