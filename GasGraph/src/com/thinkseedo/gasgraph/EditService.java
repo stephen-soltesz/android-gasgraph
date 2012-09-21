@@ -197,7 +197,7 @@ public class EditService extends Activity { // OrmLiteBaseActivity<DatabaseHelpe
 			@Override
 			public void onClick(View v) {
         		//Intent i = new Intent(EditService.this, GasGraphActivity.class);
-        		Intent i = new Intent(EditService.this, ListExample.class);
+        		Intent i = new Intent(EditService.this, GasGraph.class);
         		if ( id == ADD_NEW_ID ) {
         			// we were adding a new record, 
         			// so, cancel does nothing

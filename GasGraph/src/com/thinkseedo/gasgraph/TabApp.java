@@ -21,7 +21,7 @@ public class TabApp extends TabActivity { // implements TabHost.TabContentFactor
 	    tabHost.addTab(tabHost.newTabSpec("tab1")
 	        .setIndicator("", getResources().getDrawable(R.drawable.ic_maint))
 	        //.setContent(new Intent(this, ImportCSV.class)));
-	        .setContent(new Intent(this, ListExample.class)));
+	        .setContent(new Intent(this, GasGraph.class)));
 	    
         View view = (View) findViewById(R.id.imageViewAdd);
         if ( view != null ) {

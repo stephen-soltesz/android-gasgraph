@@ -76,7 +76,7 @@ import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ListExample extends Activity {
+public class GasGraph extends Activity {
 
 	private ViewFlow viewFlow=null;
 	LocalActivityManager mLam=null;

@@ -38,7 +38,7 @@
         </activity>
          <!-- android:theme="@android:style/Theme.Black.NoTitleBar"-->
         <activity
-            android:name=".ListExample"
+            android:name=".GasGraph"
             android:label="@string/app_name" 
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/MooTheme">

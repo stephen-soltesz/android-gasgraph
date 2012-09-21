@@ -203,7 +203,7 @@ public class EditRecord extends Activity { // OrmLiteBaseActivity<DatabaseHelper
         		if ( mCanceledCallback != null ) {
         			mCanceledCallback.onCanceledRecord(mGasRecord);
         		}
-        		Intent i = new Intent(EditRecord.this, ListExample.class);
+        		Intent i = new Intent(EditRecord.this, GasGraph.class);
         		if ( id == ADD_NEW_ID ) {
         			// we were adding a new record, 
         			// so, cancel does nothing
