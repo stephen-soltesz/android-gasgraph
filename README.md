@@ -19,7 +19,7 @@ Then, start Eclipse and import GasGraph into your workspace:
 
    * File -> New -> Android Project
    * Create Project from Existing Source
-        * Choose directory android-gasgraph/GasGraph
+   * Choose directory android-gasgraph/GasGraph
    * Finish
 
 There will be errors immediately related to missing dependencies.
