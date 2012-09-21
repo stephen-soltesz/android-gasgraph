@@ -1,6 +1,3 @@
-android-gasgraph
-================
-
 Screenshots
 ================
 
